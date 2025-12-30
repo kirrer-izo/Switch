@@ -28,7 +28,8 @@ public class Main {
                 System.out.println("Was not 1, 2, 3, 4, or 5");
                 break;
         }
-        //more code here
+        String month = "OCTOBER";
+        System.out.println(month + " is in the " + getQuarter(month) + " quarter");
     }
 
     public  static String getQuarter(String month) {
